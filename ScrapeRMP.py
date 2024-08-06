@@ -331,5 +331,5 @@ if __name__ == "__main__":
         all_prof_reviews(prof_ids, num_reviews, out_name=reviews_out)
         
     else:
-        print("No --get_profs argument provided.")
+        print(help_str)
     
